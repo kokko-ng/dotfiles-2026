@@ -35,3 +35,10 @@ This environment uses modern tool aliases. When the user runs these commands, th
 | `diff` | delta |
 
 Be aware of these when interpreting command output or suggesting commands.
+
+## Process Management
+
+**NEVER use `pkill`, `killall`, or broad process termination commands.** These can crash unrelated Mac applications. Instead:
+
+- Ask the user to manually restart services if needed
+- Use specific process IDs with `kill` only for processes you started
