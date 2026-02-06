@@ -22,11 +22,6 @@ Personal configuration files for zsh, Ghostty, and Claude Code.
 
 - [Ghostty](https://ghostty.org/) - terminal emulator
 - [oh-my-zsh](https://ohmyz.sh/)
-- [eza](https://github.com/eza-community/eza) - modern ls
-- [ripgrep](https://github.com/BurntSushi/ripgrep) - modern grep
-- [bat](https://github.com/sharkdp/bat) - modern cat
-- [fd](https://github.com/sharkdp/fd) - modern find
-- [delta](https://github.com/dandavison/delta) - modern diff
 - [fzf](https://github.com/junegunn/fzf) - fuzzy finder
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - smarter cd
 - [direnv](https://direnv.net/) - directory-specific env vars

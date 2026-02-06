@@ -22,20 +22,6 @@ All testing artifacts, temporary files, and development scripts should be placed
 - Test artifacts and logs
 - Mock data generators
 
-## Shell Environment
-
-This environment uses modern tool aliases. When you or the user run these commands, they invoke modern alternatives:
-
-| Command | Actual Tool |
-|---------|-------------|
-| `ls`, `ll`, `la`, `lt` | eza |
-| `grep` | ripgrep (rg) |
-| `cat` | bat |
-| `find` | fd |
-| `diff` | delta |
-
-Be aware of these when interpreting command output or suggesting commands.
-
 ## Process Management
 
 **NEVER use `pkill`, `killall`, or broad process termination commands.** These can crash unrelated Mac applications. Instead:
