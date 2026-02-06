@@ -34,25 +34,3 @@ if command -v fzf &>/dev/null; then
         export FZF_ALT_C_COMMAND="fd --type d --hidden --follow --exclude .git"
     fi
 fi
-
-# ===================
-# direnv (directory-specific env vars)
-# ===================
-if command -v direnv &>/dev/null; then
-    eval "$(direnv hook zsh)"
-fi
-
-# ===================
-# mise (runtime version manager)
-# ===================
-if command -v mise &>/dev/null; then
-    eval "$(mise activate zsh)"
-fi
-
-# ===================
-# zoxide (smarter cd)
-# ===================
-if command -v zoxide &>/dev/null; then
-    eval "$(zoxide init zsh)"
-    alias cd="z"
-fi

@@ -23,6 +23,3 @@ Personal configuration files for zsh, Ghostty, and Claude Code.
 - [Ghostty](https://ghostty.org/) - terminal emulator
 - [oh-my-zsh](https://ohmyz.sh/)
 - [fzf](https://github.com/junegunn/fzf) - fuzzy finder
-- [zoxide](https://github.com/ajeetdsouza/zoxide) - smarter cd
-- [direnv](https://direnv.net/) - directory-specific env vars
-- [mise](https://mise.jdx.dev/) - runtime version manager
