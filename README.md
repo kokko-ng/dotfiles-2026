@@ -18,20 +18,6 @@ Personal configuration files for zsh, Ghostty, and Claude Code.
     └── CLAUDE.md       # Global Claude Code instructions
 ```
 
-## Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/kokko-ng/dotfiles-2026.git ~/.dotfiles
-
-# Symlink configs
-ln -sf ~/.dotfiles/.zshrc ~/.zshrc
-ln -sf ~/.dotfiles/.zprofile ~/.zprofile
-ln -sf ~/.dotfiles/zsh ~/.config/zsh
-ln -sf ~/.dotfiles/ghostty/config ~/.config/ghostty/config
-ln -sf ~/.dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
-```
-
 ## Dependencies
 
 - [Ghostty](https://ghostty.org/) - terminal emulator
