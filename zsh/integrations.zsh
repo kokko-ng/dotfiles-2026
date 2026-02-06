@@ -19,17 +19,6 @@ if [[ -n "$GHOSTTY_RESOURCES_DIR" ]]; then
 fi
 
 # ===================
-# iTerm2 Integration
-# ===================
-[[ -e "${HOME}/.iterm2_shell_integration.zsh" ]] && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# ===================
-# GitHub Copilot CLI
-# ===================
-# The new Copilot CLI is a standalone agentic tool - run with: gh copilot
-# No shell aliases needed; removed deprecated 'gh copilot alias' integration
-
-# ===================
 # fzf (Fuzzy Finder)
 # ===================
 if command -v fzf &>/dev/null; then
