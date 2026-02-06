@@ -29,6 +29,11 @@ fi
 [[ -f "$DOTFILES_ZSH/aliases.zsh" ]] && source "$DOTFILES_ZSH/aliases.zsh"
 
 # ===================
+# PATH
+# ===================
+path_prepend "$HOME/.local/bin"
+
+# ===================
 # Local Overrides
 # ===================
 # Machine-specific settings (not tracked in git)
