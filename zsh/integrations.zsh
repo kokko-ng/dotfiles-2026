@@ -12,6 +12,13 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 [[ -f "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
 
 # ===================
+# Ghostty Integration
+# ===================
+if [[ -n "$GHOSTTY_RESOURCES_DIR" ]]; then
+    source "$GHOSTTY_RESOURCES_DIR/shell-integration/zsh/ghostty-integration"
+fi
+
+# ===================
 # iTerm2 Integration
 # ===================
 [[ -e "${HOME}/.iterm2_shell_integration.zsh" ]] && source "${HOME}/.iterm2_shell_integration.zsh"
