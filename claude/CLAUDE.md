@@ -24,7 +24,7 @@ All testing artifacts, temporary files, and development scripts should be placed
 
 ## Shell Environment
 
-This environment uses modern tool aliases. When the user runs these commands, they invoke modern alternatives:
+This environment uses modern tool aliases. When you or the user run these commands, they invoke modern alternatives:
 
 | Command | Actual Tool |
 |---------|-------------|
