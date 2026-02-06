@@ -1,4 +1,3 @@
-# shellcheck shell=bash
 # Zsh Functions
 # Sourced by .zshrc
 
@@ -29,15 +28,12 @@ mkcd() {
 # Git Helpers
 # ===================
 
-# Note: gcam is provided by oh-my-zsh git plugin (git commit --all --message)
-
 # Create a new branch and push it to origin
 gnew() {
     git checkout -b "$1" && git push -u origin "$1"
 }
 
 # Delete local branches that have been merged
-# Note: gclean is taken by oh-my-zsh (git clean --interactive -d)
 gbclean() {
     git branch --merged | grep -v '\*\|main\|master' | xargs -n 1 git branch -d
 }
