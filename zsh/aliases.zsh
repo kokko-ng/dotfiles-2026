@@ -6,7 +6,7 @@
 # ===================
 alias ccc="claude --permission-mode bypassPermissions"
 alias cccc="claude --permission-mode bypassPermissions --continue"
-alias cu="claude update"
+alias cu="brew upgrade claude-code"
 
 # ===================
 # Modern Alternatives
