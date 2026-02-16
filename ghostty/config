@@ -1,12 +1,35 @@
-font-size = 15
+# Ghostty configuration - matching iTerm2 nvimlight settings
 
-# NvimLight theme
-background = #e0e2ea
+# Font settings
+font-family = Fira Code
+font-size = 15
+font-style-bold = true
+font-feature = calt
+font-feature = liga
+adjust-cell-width = -8%
+
+# Clipboard
+copy-on-select = true
+
+# Window size (columns x rows)
+window-width = 80
+window-height = 25
+
+# Cursor settings
+cursor-style = block
+cursor-style-blink = false
+
+# Shell settings - ensure zsh loads with login shell for oh-my-zsh
+command = /bin/zsh --login
+
+# nvimlight color scheme with custom light gray background
+background = #d1d2d7
 foreground = #14161b
 cursor-color = #9b9ea4
-cursor-text = #14161b
 selection-background = #9b9ea4
 selection-foreground = #14161b
+
+# ANSI colors (nvimlight palette from iTerm2)
 palette = 0=#07080d
 palette = 1=#590008
 palette = 2=#005523
